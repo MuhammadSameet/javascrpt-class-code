@@ -1,40 +1,49 @@
 
-var friends = ["sameet", "taha", "anus"];
-var user = prompt("find your friends")
-
-if (user == friends[0] ||
-    user == friends[1] ||
-    user == friends[2]) {
-    console.log("friend found succesfull")
-}
-else {
-    console.log("friend not found")
-}
-
-console.log(friends)
-console.log(friends)
-console.log("sameet")
 
 
+// // push end
+// // Pop 
+// // animal.unshift()
+// // animal.shift() start
+// // indexof("cat") 
+// // index number , 
+// // index ki value delete hogaye ya hohi nhi tou - negative index number dayga
+// // same value ka sirf first wala index number day dusra wala index number nhi dayga
 
-var skills = ["html", "css", "java"]
-var bioData = ["sameet", 21 , "male", "abc company", skills]
-var input = prompt("find user")
-
-console.log(bioData)
-console.log(bioData[4][0])
+// // lastindexof()
+// // indexof()
+// // sirf last wala hi index number dayga
 
 
-if (skills == bioData[4]) {
-    
-    if (input == skills[2]) {
-        console.log("access found")
-    }
-    else {
-        console.log("access not found")
-    }
+// var animals = ["cow", 'goat', 'camel']
 
-}
-else {
-    console.log("not found")
-}
+// // console.log(animals);
+
+// animals.push("sameet")
+// animals.push("taha") //push aray kay last ka value add krta h
+// animals.push("sameet") //push aray kay last ka value add krta h
+
+// // animals.pop() //pop last wali value delete krta h
+// // console.log(animals);
+
+
+
+// // animals.shift() // shift start ki value delete krta h
+// console.log(animals);
+
+
+// // animals.unshift("sameet") // unshift start ma value add krta h
+
+// var data = animals.indexOf('sameet')
+// console.log(animals.indexOf('sameet'));
+
+// var data2 = animals.indexOf('sameet')
+// console.log(data2);
+
+
+
+// var arr = ['a', 'b', 'c', 'd', 'e', 'f']
+// console.log(arr.splice(0 , 4));
+// console.log(arr.slice(0 , 4));
+
+
