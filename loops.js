@@ -33,3 +33,64 @@ var item = ['chips', 'cake', 'snaks', 'chocolate', 'biscuits']
 for ( var i = 0 ; i <= item.length; i++){
     console.log(i);
 };
+
+
+
+// 29/5/25 class
+
+
+// Q1
+// for (var i = 1; i <= 5 ; i ++) {
+//     console.log(i, "Hello World");
+// };
+
+// Q2
+// for (var i = 1; i <= 10 ; i ++) {
+//     console.log(i)
+// };
+
+// Q3
+// lenght = +prompt("enter lenght of multipication table")
+// number = prompt("enter the number")
+
+// for (let i = 1; i <= lenght; i++) {
+//     console.log(number, "*", i, "=" ,i * number);
+// };
+
+// Q4
+// A = ['Nokia', 'Sony', 'Apple', 'Samsung', 'Huawei']
+// for (var i = 0; i <= A.length -1 ; i++){
+//     console.log(A[i]);
+// };
+
+// Q5
+// fruits = ['apple', 'mango', 'banana', 'oranga', 'strawberry']
+
+// for (var i = 0; i <= fruits.length -1 ; i++){
+//     console.log(fruits[i]);
+// };
+
+// for (var i = 0; i <= fruits.length -1 ; i++){
+//     console.log("Elements at index", i , "is", fruits[i])
+// };
+
+// Q6
+number = +prompt("Enter total numbers of items: ")
+items = []
+
+console.log("number of items:", number)
+console.log("items:")
+
+for (var i = number; i > 0; i--){
+    UserValue = prompt("enter the value of", i )
+};
+item.push(UserValue)
+
+for (var i = 0; i <= items.length -1 ; i++){
+    console.log(items[i]);
+};
+
+
+
+
+
