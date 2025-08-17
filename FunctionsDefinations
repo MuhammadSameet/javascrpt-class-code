@@ -1,0 +1,8 @@
+
+higher order function:
+1. a function which take a function has a paramerter
+2. and return a function
+
+callback function:
+1. ek saha function jo parametre ma ek function lay or usko chalaye
+
