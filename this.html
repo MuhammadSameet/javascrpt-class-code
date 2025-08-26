@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this in js</title>
+</head>
+
+<body>
+    <h1>this in js</h1>
+
+    <script>
+        //this keyword jis bhi object ya block of code ma hoga, tou us hi block ka work krta h
+        // ya block object bhi ho sakta ha , window or document bhi ho sakti h
+        
+                const obj = {
+            username: 'sameet',
+            job: 'Full Stack Developer',
+            position: 'junior',
+            Detail: function() {
+                console.log(`${this.username} and ${this.job}`);
+            }
+        }
+
+        console.log(obj);
+        console.log(obj.Detail());
+    </script>
+</body>
+
+</html>
