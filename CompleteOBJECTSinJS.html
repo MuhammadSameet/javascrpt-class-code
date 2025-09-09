@@ -1,0 +1,109 @@
+// //    var employObj = {
+// //         id : 123,
+// //         name : "sameet",
+// //         roll : "Web developer",
+// //         intro : function () {
+// //             // return ("skill: Css , Html");
+// //             console.log
+// //             ("skill: Css , Html");
+// //         }
+
+// //     }
+
+// //     var isPropExit = employObj.hasOwnProperty("name") // hasOwnProperty new ha js m issay pata chalta h kay object ma ya property h
+// //     console.log(isPropExit);
+
+// //     var isPropExit = "id" in employObj; // ya old tarika ha object ma property check krnay ka
+// //     console.log(isPropExit);
+
+
+// //     // console.log(employObj); // ok
+
+// //     employObj.salary = 100000 // add new property
+
+// //     // console.log(employObj); 
+
+// //     delete employObj.salary // delete property
+
+// //     console.log(employObj);
+
+// //     console.log(employObj.intro);
+// //     console.log(employObj.intro());
+
+// //     var myFuntion = function(){ // anonymous function
+// //         console.log("i m function")
+// //     };
+
+// //     console.log(myFuntion);
+
+
+// //     let obj = {
+// //         name : "sameet",
+// //         class : "10th",
+// //         school : "career house"
+// //     }
+
+// //     console.log(obj);
+
+
+// let a = {
+//     name: "sameet",
+//     id: "123",
+//     age : 23
+// }
+
+// let b = {
+//     name: "shahid",
+//     id: "456"
+// }
+
+// console.log(a, b)
+
+// // Object.assign(target, source);
+// // target: jisme properties copy karni hain
+// // source: jiska data copy karna hai
+
+
+// let merge = Object.assign(a, b)
+
+// console.log(merge);
+
+// let merge2 = Object.assign(b , a)
+
+// console.log(merge2);
+
+// let merge3 = Object.assign(a , b)
+
+// console.log(merge3);
+
+
+// // reference copy
+// let obj1 = { name: "Sameet" };
+// let obj2 = obj1; // reference copy
+
+// obj2.name = "Ali";
+
+// console.log(obj1); // name: "Ali"
+// console.log(obj2); // name: "Ali"
+
+// //  shallow copy
+// let obj1 = {
+//   name: "Sameet",
+//   skills: { frontend: "HTML" }
+// };
+
+// let obj2 = { ...obj1 }; // shallow copy
+
+// obj2.name = "Ali"; // ✅ Only in obj2
+// obj2.skills.frontend = "CSS"; // ❌ Reflects in both
+
+// // deep copy
+// let obj1 = {
+//   name: "Sameet",
+//   skills: { frontend: "HTML" }
+// };
+
+// let obj2 = JSON.parse(JSON.stringify(obj1)); // deep copy
+
+// obj2.name = "Ali"; // ✅ Only in obj2
+// obj2.skills.frontend = "CSS"; // ✅ Only in obj2
